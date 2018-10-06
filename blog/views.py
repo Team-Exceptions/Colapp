@@ -10,6 +10,8 @@ from django.views.generic import (
 )
 from .models import Post
 
+def home_page(request):
+    return render(request, 'blog/start.html')
 
 def home(request):
     context = {

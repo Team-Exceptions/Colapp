@@ -13,7 +13,7 @@
 [![7](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/Project-Somaiya-Classroom/images/7)](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/Project-Somaiya-Classroom/links/7)
 ---
 #### An interactive one stop web app solution to manage your hectic college life!
-![Somaiya Classroom](/app/src/main/res/drawable/kjsce.png) 
+![CollApp](/media/start.jpg) 
 
 ---
 

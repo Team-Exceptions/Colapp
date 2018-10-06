@@ -2,7 +2,7 @@
 {% load crispy_forms_tags %}
 {% block content %}
 
-    <div class="jumbotron text-center" src="/home/arghyadeep/Colapp/media/card_bg.jpg">
+    <div class="jumbotron text-center" style="background-image: url('https://uixninja.github.io/pehia/img/adv_right_bg.jpg'); background-size: 100% 100%;">
         <div class="media">
           <img class="rounded-circle account-img" src="{{ user.profile.image.url }}">
           <div class="media-body">
@@ -13,12 +13,12 @@
     </div>
 
     <button class="btn btn-outline-info" id='edit-btn'>Edit Profile</button>
-    
+
     <br>
     <br>
 
     <div class = "content-section-change">
-        <form id = 'fo'method="POST" enctype="multipart/form-data">
+        <form id = 'my_form' method="POST" enctype="multipart/form-data" style = "background-color: transparent;">
             {% csrf_token %}
             <fieldset class="form-group">
                 <legend class="border-bottom mb-4">Profile Info</legend>
@@ -30,5 +30,5 @@
             </div>
         </form>
     </div>
-   
+
 {% endblock content %}
